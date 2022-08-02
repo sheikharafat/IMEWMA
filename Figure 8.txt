@@ -1,0 +1,11 @@
+From line 3 to 13, we generate the W1 and W2 coefficient values. L coefficient value is taken from Table 1.
+In line 15, the variable “x” contains the cars brake pads lifetime data set.
+The variable “r” contains the 12 subgroups each contains 6 samples which are taken from the variable “x”. “z” is the plotting statistic. The vector “ZIM” contains all the plotting statistic where we add 25% shift to the 8th to 12th samples The upper control limit, center line and lower control limit are calculated in to line 40, 41 and 42 respectively. W0 is the mean of the process estimated scale parameters.
+In line 46, we plot the plotting statistic.
+
+
+From line 66 to 81, we draw the V control chart. Here, “L1” is taken from the Hossain et al.’s “New V control chart for Maxwell distribution” paper. “W11” and “W22” are required coefficients. The vector “sigma_s” contains the plotting statistic where we add 40% variations  after 8th sample. In line 93 we plot the plotting statistic and LCL1 and UCL1 denote the power control and upper control limit for V control chart.
+In line 79, we plot the plotting statistic of the V control chart.
+
+
+NB: In line 1, we set a seed value so that the reviewer get the sample image that we provide into the manuscript. Without this seed value, due to simulation we will get different results in different times.

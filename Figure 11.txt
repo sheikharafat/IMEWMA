@@ -1,0 +1,5 @@
+From line 1 to 11, we generate the W1 and W2 coefficient values. L coefficient value is taken from Table 1.
+The variable “x1 to x15” the 15 subgroups each contains 5 samples which is taken from cancer patient survival time data set. “s1 to s15” are the estimates of the scale parameters for these 15 sub-groups. “sigma_bar” is the mean of the estimated scale parameter values. “z1 to z15” is the plotting statistic. The vector “ZIM” contains all the plotting statistic where we add 25% shift to the 9th to 15th samples. The upper control limit, center line and lower control limit are calculated in to line 71, 72 and 73 respectively
+In line 77, we plot the plotting statistic.
+
+

@@ -1,0 +1,1 @@
+The variable “x” contains the cancer patient’s survival time in months. We use the R built in “hist” and “density” function to draw the Figure 9.

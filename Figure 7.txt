@@ -1,0 +1,6 @@
+From line 3 to 13, we generate the W1 and W2 coefficient values. L coefficient value is taken from Table 1.
+In line 15, the variable “x” contains the cars brake pads lifetime data set.
+The variable “r” contains the 12 subgroups each contains 6 samples which are taken from the variable “x”. “z” is the plotting statistic. The vector “ZIM” contains all the plotting statistic. The upper control limit, center line and lower control limit are calculated in to line 37, 38 and 39 respectively. W0 is the mean of the process estimated scale parameters.
+In line 43, we plot the plotting statistic.
+
+NB: In line 1, we set a seed value so that the reviewer get the sample image that we provide into the manuscript. Without this seed value, due to simulation we will get different results in different times.

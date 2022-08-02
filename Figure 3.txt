@@ -1,0 +1,9 @@
+From line 3 to 14, we generate the W1 and W2 coefficient values. L coefficient value is taken from Table 1. we develop a function namely “rIND” that generates inverse Maxwell random values for sample size “N” and “sigma”. We generate 20 sub-groups of samples each size is 6. The variables “r”, “s” and “z” denote the inverse Maxwell variable, estimated values of the scale parameter and the plotting statistic respectively. 
+
+In line 46, we add 30% shift to the 11th to 20th samples. The upper control limit, center line and lower control limit are calculated in to line 50, 51 and 52 respectively. W0 is the mean of the process estimated scale parameters.
+
+In line 57, we plot the plotting statistic.
+
+From line 77 to 95, we draw the V control chart. Here, “L1” is taken from the Hossain et al.’s “New V control chart for Maxwell distribution” paper. “W11” and “W22” are required coefficients. The vector “sigma_s” contains the plotting statistic where we add 30% variations  after 10th sample. In line 93 we plot the plotting statistic and LCL1 and UCL1 denote the power control and upper control limit for V control chart.
+
+NB: In line 1, we set a seed value so that the reviewer get the sample image that we provide into the manuscript. Without this seed value, due to simulation we will get different results in different times.

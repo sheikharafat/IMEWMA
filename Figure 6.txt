@@ -1,0 +1,6 @@
+In line 1, “shift” indicated the different shift values.
+In line 2, ”MDRL_v” gives the MDRL of V control chart. These values are taken from Table 9.
+In line 3, “MDRL_0.75” gives the MDRL of IMEWMA control chart at lambda=0.75 and n=6. These values are taken from Table 6.
+In line 4, “MDRL_0.50” gives the MDRL of IMEWMA control chart at lambda=0.50 and n=6. These values are taken from Table 7.
+In line 5, “MDRL_0.25” gives the MDRL of IMEWMA control chart at lambda=0.25 and n=6. These values are taken from Table 8.
+From lines 7 to 10, we plot these values respectively and finally got Figure 6.

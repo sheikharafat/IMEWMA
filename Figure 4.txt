@@ -1,0 +1,9 @@
+From line 3 to 14, we generate the W1 and W2 coefficient values. L coefficient value is taken from Table 1. we develop a function namely “rIND” that generates inverse Maxwell random values for sample size “N” and “sigma”. We generate 20 sub-groups of samples each size is 6. The variables “r”, “s” and “z” denote the inverse Maxwell variable, estimated values of the scale parameter and the plotting statistic respectively. 
+
+In line 46, we add 50% shift to the 11th to 20th samples. The upper control limit, center line and lower control limit are calculated in to line 50, 51 and 52 respectively. W0 is the mean of the process estimated scale parameters.
+
+In line 57, we plot the plotting statistic.
+
+For constructing upper sided Weibull control chart, we assume alpha_0=7.08, beta_0= 1.03 and a reflecting barrier w0=0.173. Here, Q is the plotting statistic and the vector “sigma_s” denote the plotting statistic where the last 10 samples contain 50% variations. UCL1 indicates the upper control limit and in line 95 we plot the plotting statistic.
+
+NB: In line 1, we set a seed value so that the reviewer get the sample image that we provide into the manuscript. Without this seed value, due to simulation we will get different results in different times.

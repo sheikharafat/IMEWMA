@@ -1,0 +1,1 @@
+In this program, we develop a function namely “rIND” that generates inverse Maxwell random values for sample size “N” and “sigma”. Here, we take 10000 samples and three different sigma values (0.02,0.4 and 0.6). Then by using R built in “density” function, we draw the PDF of inverse Maxwell distribution.
