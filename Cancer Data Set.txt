@@ -1,0 +1,15 @@
+In line 1, the variable “x” contains the data values.
+In line 2, the variable “t” indicates the truncation time.
+In line 3, we read the size (“n1”) of our data set.
+In line 4 to 13, we develop a loop that gives us values which are larger than the truncation time “t”. In to line 14, the variable “y” contains these values.
+In line 15, we arrange the values in ascending order and defined them as a variable namely “r”.
+In line 16, we read the size (“n”) of our data set after truncation.
+In line 17 to 19, we estimate the scale parameter (“sigma”).
+In line 20, we use a package named “zipfR” which provide us an incomplete gamma function that is necessary for developing the CDF of our studying distribution.
+In line 21 and 22, “F1” and “F2” define the CDF of the after-truncation data values and the truncated values respectively.
+Now according to Klugman et al. defined K-S test, we calculate the test statistic value “D”. In line 42, we get the maximum value of the test statistic which is the expected one.
+Finally, we compare this value with the critical values. Into line 46 to 53, the critical values are given for 1%, 5% and 10% level of significance.
+
+
+
+
