@@ -1,0 +1,25 @@
+In line 1, “del” indicated the different shift values.
+In line 3, “arl_0.25” gives the ARL of IMEWMA control chart at lambda=0.25 and n=6. These values are taken from Table 8.
+In line 4, “arl_0.50” gives the ARL of IMEWMA control chart at lambda=0.50 and n=6. These values are taken from Table 7.
+In line 5, “arl_0.75” gives the ARL of IMEWMA control chart at lambda=0.75 and n=6. These values are taken from Table 6.
+In line 6, ”arl_v” gives the ARL of V control chart. These values are taken from Table 9.
+
+Now, according to the described procedure from “Performance Evaluation of the IMEWMA control chart” section of the main manuscript, we calculate the EQL, PCI and RARL.
+In line 23, EQL_0.25 gives the extra quadratic loss value of the proposed IMEWMA control chart at lambda=0.25.
+In line 24, EQL_0.50 gives the extra quadratic loss value of the proposed IMEWMA control chart at lambda=0.50.
+In line 25, EQL_0.75 gives the extra quadratic loss value of the proposed IMEWMA control chart at lambda=0.75.
+In line 26, EQL_V gives the extra quadratic loss value of the V control chart.
+
+In line 29, PCI_0.25 gives the performance comparison index value of the proposed IMEWMA control chart at lambda=0.25.
+In line 30, PCI_0.50 gives the performance comparison index value of the proposed IMEWMA control chart at lambda=0.50.
+In line 31, PCI_0.75 gives the performance comparison index value of the proposed IMEWMA control chart at lambda=0.75.
+In line 32, EQL_V gives the performance comparison index value of the V control chart.
+
+In line 50, RARL_0.25 gives the relative average run length value of the proposed IMEWMA control chart at lambda=0.25.
+In line 51, RARL_0.50 gives the relative average run length value of the proposed IMEWMA control chart at lambda=0.50.
+In line 52, RARL_0.75 gives the relative average run length value of the proposed IMEWMA control chart at lambda=0.75.
+In line 53, RARL_V gives the relative average run length value of the V control chart.
+
+
+
+

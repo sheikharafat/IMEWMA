@@ -1,0 +1,16 @@
+By using this program, we have constructed Table 6.
+In line 1, “L” ,”n”,”ARL_0” and “del” indicate the coefficients values, sample size, in control ARL and amount of shift respectively.
+In line 2, sge2 and lambda define the scale parameter (sigma) and smoothing contestant respectively.
+In line 6, “r” is the inverse Maxwell random variable.
+In line 7, “p” is the estimates of the scale parameter (sigma).
+The variable “Z” is the plotting statistic.
+In line 13 and 14, “lcl” and “ucl” indicated the lower control limit and upper control limit respectively.
+Finally, in line 26,28 and 30, we get the average run lrngth (ARL), SDRL and MDRL for in control situation.
+
+Then we repeat this program by only increasing the amount of shift. In this program a1, a2, a3, a4, a5, a6, a7, a8, a9 and a10 gives the ARL values for in control situation, 5%, 10%, 15%, 20%,25%,35%, 50%, 75% and 100% variations respectively. Finally, the ARL vector contains them al together.
+Similarly, MDRL vector contains the standard deviation of run length for in control situation, 5%, 10%, 15%, 20%,25%,35%, 50%, 75% and 100% variations respectively.
+Again, SDRL vector contains the Median of run length for in control situation, 5%, 10%, 15%, 20%,25%,35%, 50%, 75% and 100% variations respectively.
+
+For constructing Table 6, we have to run this program 3 times. In first time, we set sample size 3, 2nd time sample size 6 and last time sample size 9. Every time when we change sample size, we must have to change L. The required values of L are provided in to Table 1.
+
+

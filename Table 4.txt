@@ -1,0 +1,1 @@
+By using this program, we calculate “w1” and “w2”. The formula for calculating these two coefficient is given in the main manuscript at equation (7). To calculate these values all the required values for “L”, “lambda” and “n” are taken from Table 1.
